@@ -1,0 +1,176 @@
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: space-between;  
+    position: relative;
+}
+
+.name {
+    font-size: 5em;
+    color: white;
+    z-index: 2;
+    
+}
+.help {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+.job{
+    font-size: 2em;
+    color: white;
+    z-index: 2;
+    margin-bottom: 10em;
+    
+}
+.gradient-background {
+    background: linear-gradient(300deg, #910A67, #030637, #720455);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+    height: auto;
+    padding: 20px;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+  }
+  .developer-image {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+  }
+  .passport {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+  }
+  .middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .hello {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+  }
+  .resume-section {
+    padding: 20px;
+  }
+  h2 {
+    color: black;
+  }
+  
+  .h2-skill {
+    color: white;
+    font-size: 2em;
+  }
+
+  .h2-contact{
+    font-size: 2.5em;
+    color: #030637;
+  }
+  .my-job {
+    font-size: 1.5em;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .contact-button {
+    background-color: #3C0753;
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+  }
+
+  body {
+    margin: 0;
+  }
+
+ .skills-section {
+    background-color: #3C0753;
+    padding: 20px;
+    border-radius: 20px;
+ }
+ .skill-description {
+    color: #ffffff;
+    font-size: 1em;
+ }
+
+ .skills-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    
+ }
+
+ .skills-container {
+    display: flex;
+    align-items: center;
+    margin: 40px 0px 40px 0px;
+
+    
+ }
+
+ .last-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .contact-me {
+    padding: 20px;
+    text-align: center;
+ }
+ a {
+    color: white;
+    text-decoration: none;
+ }
+ @media (max-width: 991px) {
+    .skills-container {
+        flex-direction: column;
+        align-content: flex-start;
+    }
+    .skills-section {
+        border-radius: 20px;
+    }
+    .job {
+        margin-bottom: 14em;
+        font-size: 1.6em;
+        text-align: center;
+
+        }
+    .name {
+        font-size: 3em;
+        text-align: center;
+        margin-top: 0;
+        padding-bottom: 100;
+        margin-bottom: auto;
+    }
+   
+ }
+
+ a {
+    padding-right: 10px
+ }
+ .footer {
+    text-align: center;
+    padding: 40px;
+    height: auto;
+    color: white;
+ }
