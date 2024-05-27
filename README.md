@@ -1,1 +1,1 @@
-# html-portfolio
+This was one of my very first projects that I did when I first entered the coding space. It's a simple portfolio of mine and it is located on this link : https://israel-ding-dang.github.io/html-portfolio/
