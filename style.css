@@ -45,30 +45,35 @@
         background-position: 0% 50%;
       }
   }
-  
+
   .developer-image {
     position: absolute;
     top: 50%;
     z-index: 1;
   }
+
   .passport {
     border-radius: 50%;
     height: 150px;
     width: 150px;
   }
+
   .middle-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
   }
+
   .hello {
     font-size: 3.5em;
     margin-bottom: 20px;
   }
+
   .resume-section {
     padding: 20px;
   }
+
   h2 {
     color: black;
   }
@@ -82,6 +87,7 @@
     font-size: 2.5em;
     color: #030637;
   }
+
   .my-job {
     font-size: 1.5em;
     max-width: 500px;
@@ -108,6 +114,7 @@
     padding: 20px;
     border-radius: 20px;
  }
+
  .skill-description {
     color: #ffffff;
     font-size: 1.2em;
@@ -171,6 +178,7 @@
  a {
     padding-right: 10px
  }
+ 
  .footer {
     text-align: center;
     padding: 40px;
