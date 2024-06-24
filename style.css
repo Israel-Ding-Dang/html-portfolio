@@ -1,21 +1,21 @@
-.top-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-    justify-content: space-between;  
-    position: relative;
+.top-container {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: space-between;  
+  position: relative;
 }
 
 .name {
-    font-size: 5em;
-    color: white;
-    z-index: 2;
-    
+  font-size: 5em;
+  color: white;
+  z-index: 2;    
 }
+
 .help {
-    color: white;
-    text-align: center;
-    font-size: 3em;
+  color: white;
+  text-align: center;
+  font-size: 3em;
 }
 
 .job{
